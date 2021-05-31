@@ -2,40 +2,35 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>404-that's an error</title>
+  <title>404 - that's an error</title>
   <link rel="shortcut icon" href="images/rsz_tejo_mukesh123.png" type="image/x-icon">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arvo'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<section class="page_404">
-	<div class="container">
-		<div class="row">	
-		<div class="col-sm-12 ">
-		<div class="col-sm-10 col-sm-offset-1  text-center">
-		<div class="four_zero_four_bg">
-			<h1 class="text-center ">404</h1>
-		
-		
-		</div>
-		
-		<div class="contant_box_404">
-		<h3 class="h2">
-		Look like you're lost
-		</h3>
-		
-		<p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Watch this video instead</a></p>
-		
-		<a href="tejomukesh.github.io" class="link_404">Go Home</a>
-	</div>
-		</div>
-		</div>
-		</div>
-	</div>
-</section>
+<main class="container">
+  <div class="container__left venn" role="img" aria-label="404 Venn Diagram">
+    <div class="venn__bubble venn__bubble--left" aria-hidden="true"></div>
+    <div class="venn__bubble venn__bubble--right" aria-hidden="true"></div>
+    <p class="venn__text venn__text--left" aria-describedby="venn-left">Either something's broke</p>
+    <p class="venn__text venn__text--center" aria-describedby="venn-center">404</p>
+    <p class="venn__text venn__text--right" aria-describedby="venn-right">Or you just like 404 pages</p>
+    <span id="venn-left" class="sr-only">Left side of venn diagram</span>
+    <span id="venn-center" class="sr-only">Intersect side of venn diagram</span>
+    <span id="venn-right" class="sr-only">Right side of venn diagram</span>
+  </div>
+  <div class="container__right desc">
+    <h1 class="desc__head">Error: 404 - Page Not Found</h1>
+    <div class="desc__body">
+      <p>How about we go back to my place? <u><a href="tejomukesh.github.io">Click here.</u></p>
+    </div>
+    
+  </div>
+</main>
 <!-- partial -->
-  
+  <script  src="./script.js"></script>
+
 </body>
 </html>
