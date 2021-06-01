@@ -1,1 +1,1 @@
-console.clear();
+// no JS this time !
